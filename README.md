@@ -7,7 +7,7 @@ Proposals account for user-specified constraints, including:
 - `well_counts`: counts of wells in each zone to add
 - `depths`: true vertical depths of each zone
 - `existing_wells`: (x, y) tuples representing existing wells locations to account
-- `lease_offset'`: horizontal distance to maintain from edges of lease
+- `lease_offset`: horizontal distance to maintain from edges of lease
 - `right_bount`: horizontal extent of lease
 
 Beyond above constraints, algorithm maximizes distance between wells (both existing as well as other proposed wells).
