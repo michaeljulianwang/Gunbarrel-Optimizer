@@ -270,10 +270,6 @@ if __name__ == "__main__":
         right_bound=right_bound_
     )
 
-    # Local Minimizer
-    lm = go.localMinimize()
-    go.getCoords(lm.x)
-
     # Differential Evolution
     de = go.differentialEvo()
     go.getCoords(de.x)
@@ -281,6 +277,10 @@ if __name__ == "__main__":
     # Basin Hopping
     bh = go.basinHop()
     go.getCoords(bh.x)
+
+    # Local Minimizer
+    lm = go.localMinimize()
+    go.getCoords(lm.x)
 
     # Brute Force
     b = go.brute()
