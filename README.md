@@ -6,7 +6,7 @@ Proposals account for user-specified constraints, including:
 - `num_zones`: count of depth intervals, zones, to add
 - `well_counts`: counts of wells in each zone to add
 - `depths`: true vertical depths of each zone
-- `existing_wells`: (x, y) tuples representing existing wells locations to account
+- `existing_wells`: (x, y) tuples representing existing well locations to account for
 - `lease_offset`: horizontal distance to maintain from edges of lease
 - `right_bount`: horizontal extent of lease
 
